@@ -1,0 +1,40 @@
+.file-dropper{
+    border:1px dashed black;
+    height:200px;
+    background-color: #efefef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+    transition: 0.2s;
+    justify-content: center;
+    align-items: center;
+}
+
+.file-dropper input{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.file-dropper:hover{
+    background-color: pink;
+
+}
+
+.image-preview{
+    width: 0%;
+    opacity:0;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+    border:5px solid gray
+}
+
+.image-preview-show{
+    width: 75%;
+    opacity:1;
+    transition: .5s;
+}
